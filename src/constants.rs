@@ -4,9 +4,9 @@ use colored::Colorize;
 
 use crate::utilities::ByteShifter;
 
-type Utf8Address = u16;
-type ClassAddress = u16;
-type NameAndTypeAddress = u16;
+pub type Utf8Address = u16;
+pub type ClassAddress = u16;
+pub type NameAndTypeAddress = u16;
 
 pub enum Constant {
     FieldReference(ClassReference),

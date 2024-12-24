@@ -1,5 +1,6 @@
 use class_loader::ClassFile;
 
+mod access_flags;
 mod class_loader;
 mod constants;
 mod utilities;
